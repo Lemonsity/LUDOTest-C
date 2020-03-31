@@ -18,7 +18,7 @@ void boolEqual(bool result, bool expect, int index, char * message) {
     status[2]++;
     printf("Test #%d %s. ", index, (passed) ? "Passed" : "Failed");
     if (!passed)
-        printf("Expected: %s, got: %s. %s ***", (expect == 1) ? "false" : "true", (result == 1) ? "false" : "true", message);
+        printf("Expected: %s, got: %s. %s ***", (expect) ? "true" : "false", (result) ? "true" : "false", message);
     printf("\n");
 }
 
