@@ -1,4 +1,4 @@
-# Unittest for C
+# LUDOTest for C
 
 This is a simple API that will help you with testing your C code
 

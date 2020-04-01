@@ -7,7 +7,7 @@
 #include <stdbool.h>
 #define _USE_MATH_DEFINES
 
-#include "Unittest.c"
+#include "LUDOTest.c"
 
 int sum(int a, int b) {
     return a + b;
