@@ -12,9 +12,9 @@ There are also `Smaller/Greater` functions in the form of `Smaller/Greater(a, b,
 `printfResult` function will display the amount of test passed and failed when the function is called
 
 ## How to use
-Place the `Unittest.c` file in the same directory as the file you are testing.
-You can choose to either add a main function in `Unittest.c` itself and call the functions, or you can create a few `.c` file for testing.
-If you choose the latter, remember to include the line `#include "Unittest.c"` on top.
+Place the `LUDOTest.c` file in the same directory as the file you are testing.
+You can choose to either add a main function in `LUDOTest.c` itself and call the functions, or you can create a few `.c` file for testing.
+If you choose the latter, remember to include the line `#include "LUDOTest.c"` on top.
 
 ## Example
 Compile and run `Example.c` to see the API in action 
